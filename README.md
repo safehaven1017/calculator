@@ -44,4 +44,6 @@ If you're stuck on thinking how to solve this problem, take a look at the sugges
 ### Hints
 1. Don't place an event listener on each individual button. Instead, use addEventListenter and attach a listener to a group of buttons.  Use the `event` object to determine which button was clicked.
 1. use *`slice`* and *`splice`* instead of `push` and `pop`
+
+###### **Credits:** Code originally forked from: https://codepen.io/lalwanivikas/pen/eZxjqo
 </details>
