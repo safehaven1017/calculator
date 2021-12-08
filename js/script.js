@@ -77,7 +77,7 @@ for (let i = 0; i < operators.children.length; i++) {
     operators.children[i].addEventListener('click', () => {
         
         // This if condition prevents an operator from being entered twice
-        if (opArray.includes(inputArray[inputArray.length - 1]) == false) {
+        if (opArray.includes(inputArray[inputArray.length - 1]) == false && inputArray[inputArray.length - 1] != '.') {
             
             // This if condition automatically assumes '0' is the first input if an operator hasn't been entered
             if (inputArray.length < 1 && resultFlag == false) {
