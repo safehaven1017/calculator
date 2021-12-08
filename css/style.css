@@ -22,7 +22,7 @@ p {
     border-radius: 1px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
     font-size: 1.8rem;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     margin: 0 auto;
     padding: 20px;
     -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
@@ -124,4 +124,17 @@ p {
 
 .equal:active {
     font-weight: bold;
+}
+
+.equation {
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 6px;
+    border-color: #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
