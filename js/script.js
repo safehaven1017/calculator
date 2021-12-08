@@ -15,7 +15,6 @@ let resultFlag = false;
 // See details in '=' event listener section
 let sinceLastOpArray = [];
 
-
 // event listener for first three rows of numbers
 // index 'i' selects a row, index 'j' selects the buttons in the row
 // we create a listener for each 'j' index (button) inside the nested for loop 
@@ -98,6 +97,7 @@ for (let i = 0; i < operators.children.length; i++) {
         }
     })
 }
+
 //event listener for '='
 equals.addEventListener('click', () => {
     // removes operator if no number on right side
