@@ -1,5 +1,4 @@
 const screen = document.querySelector("#screen");
-const wrapper = document.querySelector(".calculator");
 const leftPanel = document.querySelector(".leftPanel");
 const lastRow = document.querySelector(".numbers:last-child")
 const operators = document.querySelector(".operators");
